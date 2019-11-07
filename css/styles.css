@@ -1,0 +1,77 @@
+/*************************************************************************
+* Chris's Standard page preset template 
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.5rem;
+   line-height: 1.5;
+   font-family: 'Montserrat', 'Open Sans', sans-serif;
+   /* font-family: 'Montserrat', sans-serif; */
+   /* font-family: 'Open Sans', sans-serif; */
+   background-color: #f0f0f0;
+}
+
+.container {
+   width: 95%;
+   margin: 2rem auto; 
+}
+
+img {
+   display: flex;
+   flex-direction: column;
+}
+
+p {
+   margin: 1rem auto;
+}
+
+/* input {
+   margin: 5px 10px;
+   padding: 3px 6px;
+   border-radius: 3px;
+} */
+
+button,
+input {
+  margin: 10px 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+button {
+  background-color: #2e6df7;
+  color: #ffffff;
+}
+
+input {
+  background-color: #ffffff;
+  color: #3b3b3b;
+}
+
+ul,
+ol {
+   margin: 3px 30px;
+}
+
+div {
+   margin: 2rem auto;
+}
+
+.red {
+   color: red;
+}
+
+.winner {
+   color: #059429;
+}
